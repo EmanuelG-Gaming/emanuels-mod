@@ -5,7 +5,7 @@ consumes: {
 }
 plans: [
   {
-    unit: trypod
+    unit: radium
     requirements: [
       silicon/15
       lead/1
@@ -21,4 +21,4 @@ requirements: [
   graphite/18
 ]
 category: units
-research: core-shard
+research: air-factory
