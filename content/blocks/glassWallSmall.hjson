@@ -1,0 +1,9 @@
+type: wall
+health: 250
+deflect: true
+maxDamageDeflect: 25
+requirements: [
+glass/6
+]
+category: defense
+research: glassWall
