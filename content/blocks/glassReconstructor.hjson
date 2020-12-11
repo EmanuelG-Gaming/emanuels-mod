@@ -3,8 +3,10 @@ size: 2
 consumes: {
 power: 0.3
 items: {
+items: [
 glassBit/6
-}
+copper/1
+]}}
 outputItem: glass/1
 requirements: [
 copper/15
