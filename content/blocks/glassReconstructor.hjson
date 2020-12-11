@@ -1,12 +1,12 @@
 type: GenericCrafter
-size: 2
+size: 2 
 consumes: {
-power: 0.3
+power: 1
 items: {
 items: [
-glassBit/6
 copper/1
-]}}
+glassBit/1
+]}} 
 outputItem: glass/1
 requirements: [
 copper/15
