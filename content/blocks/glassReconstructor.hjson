@@ -4,7 +4,7 @@ consumes: {
 power: 0.3
 items: {
 glassBit/6
-]} 
+}}
 outputItem: glass/1
 requirements: [
 copper/15
