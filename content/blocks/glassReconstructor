@@ -1,0 +1,14 @@
+type: GenericCrafter
+size: 2
+consumes: {
+power: 0.3
+items: {
+glassBit/6
+]} 
+outputItem: glass/1
+requirements: [
+copper/15
+lead/5
+]
+category: crafting
+research: glassReconstructor
