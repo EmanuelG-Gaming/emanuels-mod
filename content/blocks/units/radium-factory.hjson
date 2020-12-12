@@ -18,7 +18,7 @@ plans: [
         time: 1000
     },
     {
-        unit: radium
+        unit: excelsus2
         requirements: [
             silicon/25
             titanium/1
