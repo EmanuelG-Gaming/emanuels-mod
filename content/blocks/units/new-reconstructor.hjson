@@ -19,7 +19,7 @@ requirements: [
 ]
 upgrades: [
   [
-    excelsus1, emperor
+    excelsus, emperor
   ]
 ]
 category: units
