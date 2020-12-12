@@ -1,23 +1,33 @@
 type: UnitFactory
+
+health: 500
 size: 3
-consumes: {
-  power: 0.5
-}
-plans: [
-  {
-    unit: radium
-    requirements: [
-      silicon/15
-      lead/1
-      copper/1
-    ]
-    time: 100
-      }
-]
+itemCapacity: 30
 requirements: [
-  copper/5
-  lead/12
-  silicon/8
-  graphite/18
+    copper/1
+    lead/1
+    silicon/16
+    metaglass/1
 ]
-research: command-center
+plans: [
+    {
+        unit: excelsus
+        requirements: [
+            silicon/25
+        ]
+        time: 1000
+    },
+    {
+        unit: radium
+        requirements: [
+            silicon/25
+            titanium/1
+        ]
+        time: 1200
+    }
+]
+category: units
+consumes: {
+    power: 2
+}
+research: command-center 
