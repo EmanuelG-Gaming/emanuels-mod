@@ -1,0 +1,33 @@
+type: flying
+speed: 2
+accel: 1
+drag: 0.01
+health: 150
+engineOffset: 5.5
+range: 200
+armor: 4
+weapons: [
+  {
+    name: none
+    y: 0
+    x: 1
+    reload: 12
+    ejectEffect: casing1
+    shootSound: shoot
+    bullet: {
+      speed: 5
+      damage: 25
+      width: 15
+      height: 30
+      lifetime: 250
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      incendAmount: 2
+      incendSpread: 2
+      frontColor: f8ad42
+      backColor: f68021
+      status: burning
+    }
+  }
+]
+research: excelsus
