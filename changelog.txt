@@ -2,3 +2,8 @@ verison 0.1 pre alpha
 -added Glass and glass wall
 -added ways to make glass (a recostructor which requires copper and glass bits for making a whole glass piece!)
 -added 2 Beyblade-like units along with the factory that makes them.
+
+version 0.2 pre alpha
+this is a small update but more to come soon.
+-added 2x2 glass walls
+-added a way to produce glass bits which are necessary for a whole glass piece.
