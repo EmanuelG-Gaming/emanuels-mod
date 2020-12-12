@@ -20,5 +20,4 @@ requirements: [
   silicon/8
   graphite/18
 ]
-category: units
-research: radiumFactory
+research: command-center
