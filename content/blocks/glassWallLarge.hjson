@@ -1,0 +1,9 @@
+type: wall
+health: 1000
+chanceDeflect = 5
+flashHit = true; 
+requirements: [
+glass/24
+]
+category: defense
+research: glassWallSmall
