@@ -1,7 +1,6 @@
 type: wall
 health: 1000
-chanceDeflect = 5
-flashHit = true
+size: 2
 requirements: [
 glass/24
 ]
