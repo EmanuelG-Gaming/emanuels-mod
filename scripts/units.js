@@ -1,1 +1,1 @@
-const trpod = extendContent(UnitType, "trypod", {});
+const rad = extendContent(UnitType, "radium", {});
