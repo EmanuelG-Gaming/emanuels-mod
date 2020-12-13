@@ -1,5 +1,6 @@
 require('units');
 require('blocks');
+require('main);
 
 const omegaTerro = extendContent(UnitType, "omegaTerror", {});
 omegaTerro.constructor = () => extend(LegsUnit, {
