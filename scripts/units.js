@@ -2,7 +2,7 @@ const excel = extendContent(UnitType, "excelsus", {});
 const excel2 = extendContent(UnitType, "excelsus2", {});
 const emper = extendContent(UnitType, "emperor", {});
 const terro = extendContent(UnitType, "terror", {}); 
-const trueTerro = extendContemt(UnitType, "trueTerror", {});
+const omegaTerro = extendContemt(UnitType, "omegaTerror", {});
 );
 excel.constructor = () => {
     const unit = extend(UnitEntity, {});
@@ -20,7 +20,7 @@ terro.constructor = () => {
     const unit = extend(UnitEntity, {});
     return unit;
 };
-terro.constructor = () => {
+omegaTerro.constructor = () => {
     const unit = extend(UnitEntity, {});
     return unit;
 };
