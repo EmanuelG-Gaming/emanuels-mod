@@ -10,7 +10,7 @@ const wallEffect = new Effect(60, e => {
 
 const wall = extendContent(Wall, "glassWallSmall", {});
 wall.blockGround = BlockGroup.walls;
-const wallAvoidDamage = 10;
+const wallAvoidDamage = 1000;
 
 wall.buildType = () => extendContent(Wall.WallBuild, wall, {
 	collision(bullet){
