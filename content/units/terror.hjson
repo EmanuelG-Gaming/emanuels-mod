@@ -1,0 +1,43 @@
+type: flying
+health: 4500
+hitSize: 40
+speed: 3.9
+drag: 0.02
+range: 80
+rotatespeed: 0.1
+baseRotateSpeed: 0.04
+weapons: [{
+
+  name: none
+  x: 5
+  y: 0
+  reload: 20
+  shots: 16
+  shotDelay: 2
+  inaccuracy: 10
+  alternate: true
+  rotate: true
+  ejectEffect: none
+  velocityRnd: 0.2
+  spacing: 1
+  shootCone: 20
+  bullet: {
+    type: MissileBulletType
+    width: 16
+    height: 16
+    damage: 30
+    speed: 3
+    shrinkY: 0
+    drag: -0.01
+    splashDamageRadius: 100
+    splashDamage: 60
+    ammoMultiplier: 4
+    lifetime: 100
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+    status: blasted
+    statusDuration: 60
+  }
+  shootSound: artillery
+}]
+research: new-multiplicative
