@@ -1,0 +1,27 @@
+type: Reconstructor
+size: 5
+consumes: {
+  power: 3
+  items: {
+    items: [
+    silicon/500
+    thorium/100
+    graphite/800
+    glass/1000
+    ]
+  }
+}
+constructTime: 1600
+requirements: [
+  thorium/400
+  lead/200
+  silicon/500
+  glass/50
+]
+upgrades: [
+  [
+    emperor, terror
+  ]
+]
+category: units
+research: new-reconstructor
