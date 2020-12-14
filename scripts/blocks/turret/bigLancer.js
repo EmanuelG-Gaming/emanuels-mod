@@ -6,7 +6,7 @@ const bigLancerChargeBegin = new Effect(70, e => {
     Fill.circle(e.x, e.y, e.fin() * 6);
 });
 
-const biLancerTrail = new Effect(20, e => {
+const bigLancerTrail = new Effect(20, e => {
 	Draw.color(Color.blue, Color.white, e.fin());	Fill.square(e.x, e.y, 0.1 + e.fout() * 2.8, 45);
 });
 
