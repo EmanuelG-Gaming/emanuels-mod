@@ -31,7 +31,7 @@ const bigLacerShoot = new Effect(30, e => {
 
 const smallLancerbul = extend(ArtilleryBulletType, {
 	load(){	
-        this.backRegion = Core.atlas.find("vanilla-upgraded-bullet-explo-back");
+        this.backRegion = Core.atlas.find("emanuels-mod-bullet-explo-back");
     	this.frontRegion = Core.atlas.find("vanilla-upgraded-bullet-explo"); 	
     },
 	draw(b){
