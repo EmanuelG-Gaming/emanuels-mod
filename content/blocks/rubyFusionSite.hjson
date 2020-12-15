@@ -5,7 +5,7 @@ power: 250
 items: {
 items: [
 rubyOre/1
-phase-fiber/1
+phase-fabric/1
 ]}} 
 outputItem: ruby/1
 requirements: [
