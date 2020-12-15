@@ -1,0 +1,16 @@
+type: GenericCrafter
+size: 2 
+consumes: {
+power: 250
+items: {
+items: [
+rubyOre/1
+phase-fiber/1
+]}} 
+outputItem: ruby/1
+requirements: [
+copper/500
+surge-alloy/100
+]
+category: crafting
+research: phase-waver
