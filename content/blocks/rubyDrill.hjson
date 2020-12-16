@@ -1,0 +1,25 @@
+type: Drill
+health: 10000
+size: 5
+requirements: [
+titanium/100
+thorium/50
+silicon/500
+ruby/25
+glass/420
+] 
+tier: 6
+drillTime: 100
+liquidBoostIntensity: 3
+rotateSpeed: 10
+drawRim: true
+consumes: {
+power: 10
+liquid: {
+liquid: cryofluid
+amount: 0.1
+optional: false
+booster: true
+}} 
+category: production
+research: airblast-drill
