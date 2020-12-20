@@ -1,0 +1,48 @@
+range: 500
+requirements: [
+copper/1000
+ruby/50
+silicon/900
+plastanium/1000
+glass/1000
+surge-alloy/250
+lead/1000
+]
+ammoTypes: {
+  ruby: {
+    type: PointBulletType
+    shootEffect: benefactorShootEffect
+    hitEffect: benefactorShootEffect
+    smokeEffect: smokeCloud
+    trailEffect: instTrail
+    despawnEffect: instBomb
+    trailSpacing: 20
+    damage): 6969
+    hitShake: 10
+    ammoMultiplier: 1
+  }
+}
+rotateSpeed: 5
+reloadTime: 120
+restitution: 0.2
+ammoUseEffect: casing4
+recoilAmount: 1
+cooldown: 0.009
+shootShake: 2.5
+shots: 1
+size: 4
+shootCone: 4
+shootSound: shootBig
+coolantMultiplier: 0.1
+health: 6800
+consumes: {
+  power: 20
+  liquid: {
+    liquid: cryofluid
+    amount: 0.3
+    optional: true
+    booster: true
+  } 
+}
+category: turret
+research: meltdown 
