@@ -7,3 +7,11 @@ version 0.2 pre alpha
 this is a small update but more to come soon.
 -added 2x2 glass walls
 -added a way to produce glass bits which are necessary for a whole glass piece.
+
+version 0.7 pre alpha
+a little bigger update which adds the new ruby ore and ways to make a ruby!
+-added ruby variant of airblast
+-added ruby fusion site (cuts the ores and turns them into manufactured rubies.)
+-addition of a turret (curremtly isn't working)
+-added more op units
+etc.
